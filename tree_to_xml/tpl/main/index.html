@@ -1,0 +1,18 @@
+<html>
+<title>TREE TO XML</title>
+<head>
+    {% load staticfiles %}
+    <script src=" {% static "plugin/dist/libs/jquery.js" %}"></script>
+    <script src=" {% static "plugin/dist/jstree.min.js" %}"></script>
+    <script src=" {% static "plugin/context_menu/jquery.ui.position.js" %}"></script>
+    <script src=" {% static "plugin/context_menu/jquery.contextMenu.js" %}"></script>
+    <script src=" {% static "js/main.js" %}"></script>
+    <link rel="stylesheet" href="{% static 'plugin/dist/themes/default/style.min.css' %}">
+    <link rel="stylesheet" href="{% static 'plugin/context_menu/jquery.contextMenu.css' %}">
+</head>
+<body>
+<div id="jstree_demo_div"></div>
+<a href="/main/get_xml">Get XML</a>
+</body>
+
+</html>
